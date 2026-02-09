@@ -1,66 +1,32 @@
-An autonomous Agentic AI system that simulates a real-world software development lifecycle using multiple intelligent agents. The system includes a Developer Agent, Tester Agent, and an automated Feedback Loop that continuously improves the generated software until it meets quality standards.
+# 🤖 Agentic AI Software Development System
 
-This project demonstrates the core principles of Agentic AI, including autonomous decision-making, iterative improvement, and multi-agent collaboration.
+An autonomous **Agentic AI system** that simulates a real-world software development lifecycle using multiple intelligent agents. The system includes a **Developer Agent**, **Tester Agent**, and an automated **Feedback Loop** that continuously improves the generated software until it meets quality standards.
 
-![Uploading image.png…]()
+This project demonstrates the core principles of **Agentic AI**, including autonomous decision-making, iterative improvement, and multi-agent collaboration.
 
+---
 
-Features
+## 🚀 Features
 
-👨‍💻 Developer Agent
+### 👨‍💻 Developer Agent
+- Automatically writes software using Python
+- Generates functions based on task requirements
+- Improves code based on tester feedback
 
-Automatically writes software using Python
+### 🧪 Tester Agent
+- Evaluates generated code
+- Runs test cases
+- Detects bugs, logical errors, and inefficiencies
+- Provides structured feedback
 
-Generates functions based on task requirements
+### 🔁 Autonomous Feedback Loop
+- Tester feedback is sent back to Developer Agent
+- Developer Agent fixes issues automatically
+- Process continues until code passes all tests
 
-Improves code based on tester feedback
+### 🧠 Agentic AI Architecture
+- Fully autonomous agent workflow
+- Simulates real-world software development lifecycle
+- Demonstrates reasoning, evaluation, and iterative improvement
 
-🧪 Tester Agent
-
-Evaluates generated code
-
-Runs test cases
-
-Detects errors, bugs, and logical issues
-
-Provides structured feedback
-
-🔁 Autonomous Feedback Loop
-
-Tester feedback is sent back to Developer Agent
-
-Developer Agent fixes issues automatically
-
-Process continues until code passes all tests
-
-🧠 Agentic AI Architecture
-
-Fully autonomous agent workflow
-
-Simulates real-world software development lifecycle
-
-          ┌────────────────────┐
-          │    User Request    │
-          └─────────┬──────────┘
-                    │
-                    ▼
-          ┌────────────────────┐
-          │   Developer Agent  │
-          │  (Writes Code)     │
-          └─────────┬──────────┘
-                    │
-                    ▼
-          ┌────────────────────┐
-          │    Tester Agent    │
-          │  (Evaluates Code)  │
-          └─────────┬──────────┘
-                    │
-           Pass     │      Fail
-        ┌───────────┘────────────┐
-        ▼                        ▼
-  ┌──────────────┐       ┌──────────────┐
-  │ Final Output │       │ Feedback to  │
-  │              │       │ Developer    │
-  └──────────────┘       └──────┬───────┘
-                                │
-                                └──── Loop until correct
+---
